@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./fichier/style.css" />
+        <link rel="stylesheet" href="./fichier/stylemenu.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>THE CHAT</title>
+    </head>
+
+    <body id="body">
+
+    <div id="particles-js"></div>
+
+    <div id="top">
+      <!--1 -->
+      <div id="logoback"></div>
+
+      <!--2 -->
+      <div id="background">
+        <div id="menubarre">
+          <div id="barre1"></div>
+          <div id="barre2"></div>
+          <div id="barre3"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+      <!--Menu pas visible -->
+      <div id="menu">
+      <ul id="menuliste">
+          <li><span id="backgroundParticule">BACKGROUND</span></li>
+          <li><a href="www.jeremy.best">ABOUT</a></li>
+          <li><a href="www.jeremy.best">CONTACT</a></li>
+        </ul>
+      </div>
+
+
+
+      <div id="boiteMessage">
+      </div>
+
+      <div id="zonetext">
+        <input type="text" id="textDOM" maxlength="200" placeholder="Votre message:)" >
+        <div id="envoye" for></div>
+      </div>
+      <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+      <script src="./fichier/java.js"></script>
+      <script src="./fichier/javamenu.js"></script>
+      <script src="./fichier/particles.js"></script>
+      <script>
+      /*particlesJS.load('particles-js','./fichier/particles.json',function(){
+        console.log('Background is ON') })*/
+      </script>
+    </body>
+</html>
