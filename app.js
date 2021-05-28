@@ -26,7 +26,7 @@ app.use(function(req,res){
 })
 
 var server = http.createServer(app)
-var io = require('socket.io').listen(server)
+var io = require('socket.io')(server)
 
 
 io.sockets.on('connection',function(socket){

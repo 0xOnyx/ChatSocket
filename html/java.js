@@ -1,4 +1,4 @@
-let socket = io.connect("http://vps.jeremy.best:737/")
+let socket = io.connect("http://localhost:737/")
 
 var pseudo = ""
 while(pseudo === ""){
